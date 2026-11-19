@@ -1,0 +1,8 @@
+{
+  "name": "Class Adventure",
+  "description": "An interactive, game-inspired educational platform with subjects, teachers, four progressive difficulty levels, quizzes, and detailed results.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
