@@ -268,7 +268,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+    <div className="min-h-screen flex flex-col bg-rainbow-adventure text-slate-900">
       <TopBar
         lang={lang}
         activeView={activeView}
@@ -360,7 +360,7 @@ export default function App() {
         )}
       </main>
 
-      <footer className="bg-white border-t border-slate-200 py-5 px-4 sm:px-6 lg:px-8">
+      <footer className="bg-white/85 backdrop-blur-md border-t border-white/70 py-5 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
           <p className="font-bold text-slate-700">{UI_COPY.brand}</p>
           <p>

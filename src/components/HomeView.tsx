@@ -104,8 +104,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
   return (
     <div className="space-y-12 pb-16">
       {/* Hero Split Banner */}
-      <section className="bg-white border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8">
+        <div className="bg-white/92 backdrop-blur-md border border-white/80 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-sm">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
             <div className="lg:col-span-6 flex flex-col justify-between space-y-6">
               <div className="space-y-4">
@@ -244,7 +244,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 text-balance">
               {pickText(UI_COPY.subjectsSection.title, lang)}
             </h2>
-            <p className="text-sm sm:text-base text-slate-600">
+            <p className="text-sm sm:text-base font-medium text-slate-800">
               {pickText(UI_COPY.subjectsSection.subtitle, lang)}
             </p>
           </div>
@@ -252,7 +252,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           {/* Interactive Classroom Filter Bar */}
           {classrooms.length > 0 && (
             <div
-              className="flex items-center gap-1.5 p-1 bg-slate-200/70 rounded-xl overflow-x-auto max-w-full"
+              className="flex items-center gap-1.5 p-1 bg-white/80 backdrop-blur-sm border border-white/80 rounded-xl overflow-x-auto max-w-full shadow-2xs"
               role="tablist"
               aria-label="Classroom Filter"
             >

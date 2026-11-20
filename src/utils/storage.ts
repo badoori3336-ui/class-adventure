@@ -1,3 +1,8 @@
+import badgeLanguageImg from '../assets/images/badge_subject_language_1795089023601.jpg';
+import badgeMathImg from '../assets/images/badge_subject_math_1795089022471.jpg';
+import badgeScienceImg from '../assets/images/badge_subject_science_1795089022267.jpg';
+import badgeTechImg from '../assets/images/badge_subject_tech_1795089023372.jpg';
+import heroAdventureMapImg from '../assets/images/hero_adventure_map_1795089022322.jpg';
 import { DIFFICULTY_ORDER } from '../data/translations';
 import {
   DifficultyLevel,
@@ -21,13 +26,13 @@ const STORAGE_KEYS = {
 };
 
 export const SUBJECT_IMAGE_PATHS: Record<SubjectImageKey, string> = {
-  math: '/src/assets/images/badge_subject_math_1795089022471.jpg',
-  science: '/src/assets/images/badge_subject_science_1795089022267.jpg',
-  language: '/src/assets/images/badge_subject_language_1795089023601.jpg',
-  tech: '/src/assets/images/badge_subject_tech_1795089023372.jpg',
+  math: badgeMathImg,
+  science: badgeScienceImg,
+  language: badgeLanguageImg,
+  tech: badgeTechImg,
 };
 
-export const HERO_BANNER_IMAGE = '/src/assets/images/hero_adventure_map_1795089022322.jpg';
+export const HERO_BANNER_IMAGE = heroAdventureMapImg;
 
 export function createEmptyLevelCompletion(): LevelCompletion {
   return {
